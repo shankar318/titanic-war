@@ -1,2 +1,2 @@
 FROM tomcat:8
-COPY target/*.War /usr/local/tomcat/webapps/
+COPY /home/titanic-war/target/*.War /usr/local/tomcat/webapps/
